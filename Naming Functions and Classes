@@ -1,0 +1,3 @@
+The wider the reach of a function or class, the shorter the name should be. 
+A public class or function with a large scope needs a short name.
+A private class or function can have a longer, more descriptive name.
