@@ -1,0 +1,11 @@
+Use three double quotes (""") for strings that take up multiple lines. Indentation at the start of each quoted line is removed, as long as it matches the indentation of the closing quote.
+
+Example: 
+        let jsonData = """
+        {
+            "intValue": 123,
+            "stringValue": "string"
+        }
+        """.data(using: .utf8)!
+
+https://stackoverflow.com/questions/47234762/swift-4-programming-triple-quotes?rq=1
